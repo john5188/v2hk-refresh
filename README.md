@@ -44,8 +44,8 @@ ___服务器端VMESS配置参考如下：___
     "settings": {
       "clients": [
         {
-          "id": "6625c1aa-29be-4a78-9860-e0e721cd6ff8",
-          "alterId": 64
+          "id": "ae4894c2-00db-460d-a0f8-8fc5490f133f",
+          "alterId": 0
         }
       ]
     },
@@ -71,7 +71,7 @@ ___服务器端VLESS配置参考如下：___
         "protocol": "vless",
         "settings": {
             "clients": [{
-                "id": "6625c1aa-29be-4a78-9860-e0e721cd6ff8"
+                "id": "ae4894c2-00db-460d-a0f8-8fc5490f133f"
             }],
             "decryption": "none"
         },
@@ -116,11 +116,11 @@ ___服务器端VLESS配置参考如下：___
     "protocol": "vmess",
     "settings": {
       "vnext": [{
-        "address": "xxxx.herokuapp.com",
+        "address": "john168.herokuapp.com",
         "port": 443,
         "users": [{
-          "id": "6625c1aa-29be-4a78-9860-e0e721cd6ff8",
-          "alterId": 64
+          "id": "ae4894c2-00db-460d-a0f8-8fc5490f133f",
+          "alterId": 0
         }]
       }]
     },
